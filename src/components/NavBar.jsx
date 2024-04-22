@@ -6,7 +6,7 @@ import ContactUsPage from "./ContactUsPage";
 import GoTop from "./GoTop";
 import HomeViewPart from "./HomeViewPart";
 import MyProject from "./MyProject";
-import SkillsPage from "./skillsPage";
+import SkillsPage from "./SkillsPage";
 import MyServices from "./MyServices";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -82,7 +82,6 @@ const NavBar = () => {
               <span> Contact Us</span>
             </button>
           </div>
-          {/* Mobil-NavBar bar start */}
           <div
             onClick={() => setNav(!nav)}
             className="cursor-pointer z-50 lg:hidden flex justify-end w-full">
@@ -135,7 +134,6 @@ const NavBar = () => {
           )}
         </div>
       </div>
-      {/* Page Scroll  */}
       <div className="">
         <div>
           <HomeViewPart />
