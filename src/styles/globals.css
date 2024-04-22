@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carsoul-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carsoul-buttom span {
+  width: 70px;
+  height: 8px;
+  background-color: rgb(164, 164, 162);
+}
+
+.custom-image {
+  width: 140px;
+  height: 40px;
+}
+
+.custom-image2 {
+  width: 130px;
+  height: 43px;
+}
+
+.custom-image3 {
+  width: 150px;
+  height: 150px;
+}
+
+.howItWorkImg {
+  width: 58px;
+  height: 42px;
+}
+.custom-image4 {
+  width: 120px;
+  height: 22px;
+}
+
+.aboutImg {
+  width: 590px;
+  height: 590px;
+}
+
+.aboutImg3 {
+  width: 430px;
+  height: 390px;
+}
+
+.serviceLastImg {
+  width: 605px;
+  height: 605px;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.shadow2 {
+  box-shadow: 0px 0px 20px rgb(7, 7, 0);
+}
