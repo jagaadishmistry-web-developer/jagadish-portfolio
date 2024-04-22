@@ -19,7 +19,7 @@ const MyServices = () => {
               {servicesData.map((sData) => (
                 <div
                   key={sData.id}
-                  className="flex items-center xl:gap-5 gap-3 xl:text-xl text-lg font-medium xl:px-6 px-3 hover:scale-105 duration-300 rounded-lg border text-white h-20 w-full">
+                  className="flex items-center xl:gap-5 gap-3 xl:text-xl text-lg font-medium xl:px-6 px-3 hover:scale-105 duration-300 rounded-lg border border-white bg-white/5 text-white h-20 w-full">
                   <Image src={sData.url} alt="" /> {sData.title}
                 </div>
               ))}
