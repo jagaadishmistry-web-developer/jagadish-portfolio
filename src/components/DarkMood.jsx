@@ -1,6 +1,7 @@
 import { useAtom } from "jotai";
 import { useEffect } from "react";
-import { MdModeNight, MdOutlineWbSunny } from "react-icons/md";
+import { FaRegMoon } from "react-icons/fa";
+import { MdOutlineWbSunny } from "react-icons/md";
 import DarkAtom from "../../atom/DarkAtom";
 
 const DarkMood = () => {
@@ -18,7 +19,7 @@ const DarkMood = () => {
         {dark ? (
           <MdOutlineWbSunny className="h-6 w-6 duration-500 text-bl dark:text-white" />
         ) : (
-          <MdModeNight className="h-6 w-6 duration-500 text-bl dark:text-white" />
+          <FaRegMoon className="h-6 w-6 duration-500 text-bl dark:text-white" />
         )}
       </div>
     </>

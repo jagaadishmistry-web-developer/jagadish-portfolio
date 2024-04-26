@@ -27,24 +27,24 @@ const FooterBar = () => {
             <div className="flex gap-3 xl:gap-4">
               <Link
                 href={"https://www.facebook.com/jago.mistri.58"}
-                className="bg-white h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black">
+                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black">
                 <FaFacebookF />
               </Link>
               <Link
                 href={"https://www.linkedin.com/in/jagadish-mistry-00b57b244/"}
-                className="bg-white h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
+                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
                 <FaLinkedinIn />
               </Link>
               <Link
                 href={"https://www.facebook.com/jago.mistri.58"}
-                className="bg-white h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
+                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
                 <FaInstagram />
               </Link>
               <Link
                 href={
                   "https://www.youtube.com/channel/UCgRKg-U0clk8V0GwCYMALPw"
                 }
-                className="bg-white h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300  xl:w-[45px] flex justify-center items-center rounded-full text-black ">
+                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300  xl:w-[45px] flex justify-center items-center rounded-full text-black ">
                 <FaYoutube />
               </Link>
             </div>
