@@ -14,5 +14,5 @@ export const SkillData = [
   { id: 6, value: "55", name: "Next Js" },
   { id: 7, value: "20", name: "Node Js" },
   { id: 8, value: "75", name: "Figma" },
-  { id: 8, value: "45", name: "Photoshop" },
+  { id: 9, value: "45", name: "Photoshop" },
 ];

@@ -17,7 +17,7 @@ const SkillsPage = () => {
                     className="grid place-items-center gap-3 font-normal">
                     <CircularProgressbar
                       styles={buildStyles({
-                        textColor: "white",
+                        textColor: "#eb4d21f8",
                         pathColor: "#eb4d21f8",
                         textSize: "20px",
                       })}

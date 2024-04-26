@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "selector",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,8 +10,9 @@ module.exports = {
     extend: {
       colors: {
         secendry: "#eb4d21f8",
-        hiLight: "#B6ABC7",
+        hiLight: "#878787",
         bl: "#070707",
+        wh: "#ffff",
       },
     },
   },

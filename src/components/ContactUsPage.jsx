@@ -23,7 +23,7 @@ const ContactUsPage = () => {
   };
   return (
     <>
-      <div className="bg-bl text-white text-italic font-serif">
+      <div className="text-italic font-serif dark:text-wh text-bl">
         <div className="container mx-auto px-4 ">
           <Heading title="Contact Me" />
           <form ref={form} onSubmit={sendEmail}>
@@ -33,35 +33,35 @@ const ContactUsPage = () => {
                 type="text"
                 placeholder="Enter Your Name"
                 required
-                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] bg-white/10 text-italic"
+                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] dark:bg-wh/10 bg-bl/10 text-italic"
               />
               <input
                 name="from_email"
                 type="text"
                 placeholder="Enter Your Email"
                 required
-                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] bg-white/10 text-italic"
+                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] dark:bg-wh/10 bg-bl/10 text-italic"
               />
               <input
                 name="from_phone"
                 type="text"
                 placeholder="Enter Your Phone"
                 required
-                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] bg-white/10 text-italic"
+                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] dark:bg-wh/10 bg-bl/10 text-italic"
               />
               <input
                 name="from_subject"
                 type="text"
                 placeholder="Enter Your Subject"
                 required
-                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] bg-white/10 text-italic"
+                className="col-span-1 focus:outline-none rounded-lg md:px-6 px-4 xl:h-[80px] lg:h-[60px] md:h-[60px] h-[50px] dark:bg-wh/10 bg-bl/10 text-italic"
               />
               <textarea
                 name="message"
                 type="text"
                 placeholder="Enter Your Send Message"
                 required
-                className="lg:col-span-2 focus:outline-none rounded-lg md:px-6 px-4 pt-4 h-[300px] text-start bg-white/10 text-italic"
+                className="lg:col-span-2 focus:outline-none rounded-lg md:px-6 px-4 pt-4 h-[300px] text-start dark:bg-wh/10 bg-bl/10 text-italic"
               />
             </div>
             <div className="grid place-items-center py-12">

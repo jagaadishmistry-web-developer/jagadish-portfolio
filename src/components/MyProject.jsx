@@ -24,7 +24,7 @@ const MyProject = () => {
 
   return (
     <>
-      <div className="bg-bl text-white text-italic font-serif">
+      <div className="text-white text-italic font-serif">
         <div className="container mx-auto px-4 lg:pt-[40px] pt-[20px]">
           <Heading title="My Project" />
           {/* ====== Our Services first Caed Section ====== */}
@@ -62,7 +62,6 @@ const MyProject = () => {
               </button>
             </div>
           </div>
-
           <div className="grid lg:gap-8 gap-8 grid-cols-1 lg:grid-cols-3 font-serif mt-6">
             {projectItemData.map((passProjectData) => {
               // const { img, name, description } = passProjectData;

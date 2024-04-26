@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import portfolioLogo from "../../public/portfolioLogo.png";
+import DarkMood from "./DarkMood";
 
 const NavBar = () => {
   useEffect(() => {
@@ -33,8 +34,8 @@ const NavBar = () => {
   return (
     <>
       <GoTop />
-      <div className="bg-bl border-b border-slate-700 text-italic">
-        <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center text-white">
+      <div className="bg-wh dark:bg-bl text-bl dark:text-wh border-b border-slate-300 dark:border-slate-700 text-italic">
+        <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center">
           <div className="lg:col-span-1 flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
           </div>
@@ -71,7 +72,8 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1 lg:flex hidden justify-end w-full">
+          <div className="col-span-1 lg:flex items-center gap-7 hidden justify-end w-full">
+            <DarkMood />
             <button
               data-aos="fade-left"
               onClick={() => scrollHandler(contactUsPage)}
@@ -82,22 +84,23 @@ const NavBar = () => {
               <span> Contact Us</span>
             </button>
           </div>
-          <div
-            onClick={() => setNav(!nav)}
-            className="cursor-pointer z-50 lg:hidden flex justify-end w-full">
-            {nav ? (
-              <XMarkIcon className="w-10 h-10 text-white" />
-            ) : (
-              <Bars3Icon className="w-9 h-9 text-white" />
-            )}
+          <div className="flex gap-4 z-50 lg:hidden justify-end w-full items-center">
+            <DarkMood />
+            <div onClick={() => setNav(!nav)} className="cursor-pointer">
+              {nav ? (
+                <XMarkIcon className="w-8 h-8 text-bl dark:text-wh" />
+              ) : (
+                <Bars3Icon className="w-8 h-8 text-bl dark:text-wh" />
+              )}
+            </div>
           </div>
           {nav && (
             <div
               onClick={() => setNav(false)}
-              className="absolute md:top-48 top-24 text-center flex items-center justify-center left-6 md:left-[110px] right-6 md:right-[110px] bg-white h-[400px] md:h-[450px]">
-              <div className="text-xl font-bold text-slate-600 gap-2 ">
+              className="absolute md:top-[188px] top-20 text-center flex pt-16 justify-center left-0 right-0 bg-white h-[100vh]">
+              <div className="text-xl font-medium text-slate-600 gap-2 ">
                 <div className="grid gap-10 place-items-center">
-                  <div className="grid gap-6">
+                  <div className="grid gap-4">
                     <div className="cursor-pointer">Home</div>
                     <div
                       className="cursor-pointer"

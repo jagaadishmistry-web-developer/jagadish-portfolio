@@ -15,8 +15,8 @@ import portfolioLogo from "../../public/portfolioLogo.png";
 const FooterBar = () => {
   return (
     <>
-      <div className="bg-bl/95 pb-32 pt-16 text-italic font-serif">
-        <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 place-items-center h-full text-white lg:grid-flow-col">
+      <div className="pb-32 pt-16 text-italic font-serif">
+        <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 place-items-center h-full dark:text-wh text-bl lg:grid-flow-col">
           {/* part 1 */}
           <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 xl:gap-7 lg:mt-0 md:mt-24 mt-20 xl:mt-20">
             <Image src={portfolioLogo} alt="" />
@@ -161,8 +161,8 @@ const FooterBar = () => {
           </div>
         </div>
       </div>
-      <div className="h-16 text-white xl:text-[20px] lg:text-sm text-xs text-italic">
-        <div className="bg-black h-full w-full grid place-items-center">
+      <div className="bg-bl/30 dark:bg-wh/30 h-16 dark:text-wh text-bl xl:text-[20px] lg:text-sm text-xs text-italic">
+        <div className="h-full w-full grid place-items-center">
           Copyright © 2024 Jagadish-Portfolio. All Rights Reserved
         </div>
       </div>
