@@ -6,7 +6,7 @@ const SkillsPage = () => {
   return (
     <>
       <div>
-        <div className="container mx-auto px-4 font-serif text-italic text-white pt-6">
+        <div className="container mx-auto px-4 font-serif text-italic dark:text-wh text-bl pt-6">
           <Heading title="My Skills" />
           <div className="grid place-items-center">
             <div className="grid lg:grid-cols-6 grid-cols-2 lg:gap-12 gap-8">
