@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Heading from "./Heading";
+import Link from "next/link";
 
 const MyProject = () => {
   useEffect(() => {
@@ -85,9 +86,11 @@ const MyProject = () => {
                       {passProjectData.name}
                     </h1>
                     <div className="flex flex-col gap-3 pt-8">
-                      <button className="flex gap-1 relative rounded-lg border-2 font-medium text-italic border-secendry bg-transparent py-1 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40">
+                      <Link
+                        href={passProjectData.link}
+                        className="flex gap-1 relative rounded-lg border-2 font-medium text-italic border-secendry bg-transparent py-1 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40">
                         View Project
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
