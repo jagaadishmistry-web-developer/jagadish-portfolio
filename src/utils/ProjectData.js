@@ -1,7 +1,7 @@
 export const projectItems = [
   {
     id: 0,
-    category: "react",
+    category: "webflew",
     img: "/project-1.png",
     name: "Demo Design Project",
     link: "https://jagadishs-proventus.webflow.io/",
@@ -9,9 +9,9 @@ export const projectItems = [
   {
     id: 1,
     category: "react",
-    img: "/project4.png",
-    name: "Todo App",
-    link: "",
+    img: "/project-2.png",
+    name: "Web Calculator",
+    link: "https://jagadish-web-calculator.netlify.app/",
   },
   {
     id: 2,

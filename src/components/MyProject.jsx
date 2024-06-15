@@ -39,9 +39,9 @@ const MyProject = () => {
               </button>
               <button
                 data-aos="fade-down"
-                onClick={() => projectItemFilter("uiux")}
+                onClick={() => projectItemFilter("webflew")}
                 className="col-span-1 h-10 w-28 text-italic font-medium font-serif text-base border border-secendry text-secendry shadow-lg shadow-black hover:scale-110 duration-300 rounded-lg">
-                UI/UX
+                Webflew
               </button>
               <button
                 data-aos="fade-up"
