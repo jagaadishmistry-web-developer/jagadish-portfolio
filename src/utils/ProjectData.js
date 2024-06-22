@@ -16,9 +16,9 @@ export const projectItems = [
   {
     id: 2,
     category: "react",
-    img: "/project5.png",
-    name: "Card Desigen",
-    link: "",
+    img: "/webartizen.png",
+    name: "Web Artizen",
+    link: "https://jagadishwebartizen.netlify.app/",
   },
   {
     id: 3,
