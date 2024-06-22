@@ -22,10 +22,10 @@ export const projectItems = [
   },
   {
     id: 3,
-    category: "uiux",
-    img: "/project6.png",
-    name: "ui design",
-    link: "",
+    category: "react",
+    img: "/dantalcare.png",
+    name: "Roots Dental Care",
+    link: "https://jagadishdentalcare.netlify.app/",
   },
   {
     id: 4,
