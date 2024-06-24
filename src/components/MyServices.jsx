@@ -11,15 +11,15 @@ const MyServices = () => {
   }, []);
   return (
     <>
-      <div className="container mx-auto px-4 font-serif text-italic pb-6">
+      <div className="container mx-auto px-4 font-serif text-italic pb-6 lg:pb-36">
         <Heading title="My Services" />
-        <div className="grid grid-cols-5 gap-8">
-          <div data-aos="fade-up" className="lg:col-span-2 col-span-5">
-            <div className="grid md:grid-cols-2 gap-3 w-full">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+          <div data-aos="fade-up" className="col-span-1">
+            <div className="grid md:grid-cols-2 gap-4 w-full">
               {servicesData.map((sData) => (
                 <div
                   key={sData.id}
-                  className="flex items-center xl:gap-5 gap-3 xl:text-xl text-lg font-medium xl:px-6 px-3 hover:scale-105 duration-300 rounded-lg border border-bl dark:border-wh text-bl dark:text-wh h-20 w-full">
+                  className="flex items-center xl:gap-5 gap-3 xl:text-xl text-lg font-medium xl:px-6 px-3 hover:scale-105 duration-300 rounded-lg shadow2 dark:border border-white/25 dark:text-wh h-24 w-full">
                   <Image src={sData.url} alt="" /> {sData.title}
                 </div>
               ))}
@@ -27,11 +27,11 @@ const MyServices = () => {
           </div>
           <div
             data-aos="fade-down"
-            className="lg:col-span-3 col-span-5 grid lg:grid-cols-2 md:grid-cols-2 gap-3">
+            className="col-span-1 grid md:grid-cols-1 gap-4">
             {ServicesProvied.map((spData) => (
               <div
                 key={spData.id}
-                className="border h-80 bg-wh dark:bg-bl text-bl dark:text-wh p-6 rounded-lg shadow2 hover:bg-bl/10 dark:hover:bg-wh/10">
+                className="bg-wh dark:bg-bl text-bl dark:text-wh p-6 rounded-lg shadow2 dark:border border-white/25">
                 <h1 className="xl:text-3xl text-2xl font-bold pt-2">
                   {spData.title}
                 </h1>

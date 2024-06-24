@@ -15,11 +15,13 @@ import portfolioLogo from "../../public/portfolioLogo.png";
 const FooterBar = () => {
   return (
     <>
-      <div className="pb-32 pt-16 text-italic font-serif">
+      <br />
+      <br />
+      <div className="pb-32 pt-16 text-italic font-serif dark:bg-wh/5 bg-bl/5">
         <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 place-items-center h-full dark:text-wh text-bl lg:grid-flow-col">
           {/* part 1 */}
           <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 xl:gap-7 lg:mt-0 md:mt-24 mt-20 xl:mt-20">
-            <Image src={portfolioLogo} alt="" />
+            <Image src={portfolioLogo} alt="image" />
             <p className="xl:text-lg text-xs">
               Hello I am Fresher Frontend Designer and Frontend Developer
               jagadish mistry. iI am a Working In React Js & Next Js.
@@ -51,7 +53,7 @@ const FooterBar = () => {
           </div>
           {/* part 2 */}
           <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-3 xl:gap-9 lg:mt-0 md:mt-24 mt-0 xl:mt-[14px] 2xl:mt-20">
-            <div className="text-xl xl:text-[32px] font-bold underline">
+            <div className="text-xl xl:text-[29px] font-bold underline">
               Explore Link
             </div>
             <div className="text-xs xl:text-[18px] flex flex-col gap-1 xl:gap-4">
@@ -89,7 +91,7 @@ const FooterBar = () => {
           </div>
           {/* part 3 */}
           <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 xl:gap-8 xl:mt-[40px] 2xl:mt-[100px]">
-            <div className="text-xl xl:text-[34px] font-bold underline">
+            <div className="text-xl xl:text-[29px] font-bold underline">
               Latest Project
             </div>
             <div className="flex flex-col gap-2 xl:gap-5">
@@ -135,7 +137,7 @@ const FooterBar = () => {
           </div>
           {/* part 4 */}
           <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 mb-5 2xl:mb-[0px] xl:mb-8 2xl:mt-8 xl:gap-9 ">
-            <div className="text-xl xl:text-[32px] font-bold underline">
+            <div className="text-xl xl:text-[29px] font-bold underline">
               Get In Touch
             </div>
             <div className="text-xs xl:text-[16px] grid gap-3 xl:gap-5">

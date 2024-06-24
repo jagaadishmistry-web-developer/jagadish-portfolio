@@ -1,7 +1,7 @@
 const Heading = (props) => {
   return (
     <>
-      <div className="grid place-items-center lg:py-[100px] py-[70px] text-italic font-serif">
+      <div className="grid place-items-center lg:pb-[80px] pb-[60px] lg:pt-8 pt-14 text-italic font-serif">
         <p className="font-bold md:text-[48px] text-[36px] underline text-bl dark:text-white">
           {props.title}
         </p>

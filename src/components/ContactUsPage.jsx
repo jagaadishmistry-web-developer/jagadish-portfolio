@@ -65,7 +65,7 @@ const ContactUsPage = () => {
               />
             </div>
             <div className="grid place-items-center py-12">
-              <button className="text-secendry lg:py-4 py-2 lg:px-24 px-6 rounded-lg border border-secendry shadow-2xl shadow-slate-700/60 font-medium hover:scale-110 duration-300 text-italic lg:text-lg">
+              <button className="lg:py-4 py-2 lg:px-24 px-6 rounded-lg shadow2 dark:border border-white/25 font-medium hover:scale-110 duration-300 text-italic lg:text-lg">
                 Send Massage
               </button>
             </div>
@@ -75,7 +75,7 @@ const ContactUsPage = () => {
             title="google maps"
             referrerPolicy="no-referrer-when-downgrade"
             loading="lazy"
-            className="w-full xl:h-[500px] h-[350px] pt-16"></iframe>
+            className="w-full xl:h-[450px] h-[320px] pt-16 xl:pt-24"></iframe>
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 export const CounterData = [
-  { id: 0, value: "25", name: "Project" },
-  { id: 1, value: "6", name: "Clints" },
-  { id: 2, value: "10", name: "Service" },
+  { id: 0, value: "8", name: "Project" },
+  { id: 1, value: "2", name: "Clints" },
+  { id: 2, value: "5", name: "Service" },
 ];
 
 export const SkillData = [
@@ -15,4 +15,5 @@ export const SkillData = [
   { id: 7, value: "20", name: "Node Js" },
   { id: 8, value: "75", name: "Figma" },
   { id: 9, value: "45", name: "Photoshop" },
+  { id: 10, value: "70", name: "Webflow" },
 ];
