@@ -22,11 +22,11 @@ const AboutPage = () => {
           <div
             data-aos="fade-down"
             className="flex flex-col gap-4 lg:mt-0 mt-14 h-full">
-            <h1 className="xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2">
+            <div className="xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2">
               <h1>I'AM . . . . . </h1>
               <h1>FRONTEND DESIGNER</h1>
               <h1>JAGADISH MISTRY</h1>
-            </h1>
+            </div>
             <div className="md:text-[18px] text-[14px] text-hiLight">
               <ul className="">
                 <h1 className="text-lg text-secendry font-bold">About Me</h1>
