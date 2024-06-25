@@ -48,7 +48,6 @@ const HomeViewPart = () => {
                   className="text-black dark:text-white lg:py-4 py-2 lg:px-24 px-6 rounded-lg shadow2 dark:border border-white font-medium hover:scale-110 duration-300 text-italic lg:text-lg">
                   DOWNLODE CV
                 </a>
-                {/* Counter ------------------- */}
                 <div className="xl:mt-[55px] lg:mt-[40px] md:mt-[20px] mt-[48px] flex md:gap-14 gap-3 justify-center lg:justify-start">
                   {CounterData.map((cData) => {
                     return (
