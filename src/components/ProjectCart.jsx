@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const ProjectCart = ({ passProjectData }) => {
   const { img, name, link } = passProjectData;
@@ -23,11 +22,12 @@ const ProjectCart = ({ passProjectData }) => {
               {name}
             </h1>
             <div className="flex flex-col gap-3 pt-8">
-              <Link
+              <a
                 href={link}
+                target="_blank"
                 className="flex gap-1 relative rounded-lg border-2 font-medium text-italic border-secendry bg-transparent py-1 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40">
                 Live Project
-              </Link>
+              </a>
             </div>
           </div>
         </div>

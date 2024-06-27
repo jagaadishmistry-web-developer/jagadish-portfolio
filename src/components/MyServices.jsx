@@ -11,7 +11,7 @@ const MyServices = () => {
   }, []);
   return (
     <>
-      <div className="container mx-auto px-4 font-serif text-italic pb-6 lg:pb-36">
+      <div className="container mx-auto px-4 text-italic pb-6 lg:pb-36">
         <Heading title="My Services" />
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
           <div data-aos="fade-up" className="col-span-1">

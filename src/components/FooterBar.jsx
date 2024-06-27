@@ -4,11 +4,11 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaYoutube,
+  FaPhone,
+  FaRegEnvelope,
+  FaTwitter
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
-import { PiPhoneCallLight } from "react-icons/pi";
 import { RiBox3Fill } from "react-icons/ri";
 import portfolioLogo from "../../public/portfolioLogo.png";
 
@@ -17,157 +17,79 @@ const FooterBar = () => {
     <>
       <br />
       <br />
-      <div className="pb-32 pt-16 text-italic font-serif dark:bg-wh/5 bg-bl/5">
-        <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 place-items-center h-full dark:text-wh text-bl lg:grid-flow-col">
-          {/* part 1 */}
-          <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 xl:gap-7 lg:mt-0 md:mt-24 mt-20 xl:mt-20">
-            <Image src={portfolioLogo} alt="image" />
-            <p className="xl:text-lg text-xs">
-              Hello I am Fresher Frontend Designer and Frontend Developer
-              jagadish mistry. iI am a Working In React Js & Next Js.
-            </p>
-            <div className="flex gap-3 xl:gap-4">
-              <Link
-                href={"https://www.facebook.com/jago.mistri.58"}
-                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black">
-                <FaFacebookF />
-              </Link>
-              <Link
-                href={"https://www.linkedin.com/in/jagadish-mistry-00b57b244/"}
-                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
-                <FaLinkedinIn />
-              </Link>
-              <Link
-                href={"https://www.facebook.com/jago.mistri.58"}
-                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300 xl:w-[45px] flex justify-center items-center rounded-full text-black ">
-                <FaInstagram />
-              </Link>
-              <Link
-                href={
-                  "https://www.youtube.com/channel/UCgRKg-U0clk8V0GwCYMALPw"
-                }
-                className="dark:bg-wh/50 bg-bl/20 h-7 w-7 lg:h-5 lg:w-5 xl:h-[45px] hover:scale-105 duration-300  xl:w-[45px] flex justify-center items-center rounded-full text-black ">
-                <FaYoutube />
-              </Link>
+      <footer className="bg-Scolor py-4 text-italic">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 gap-x-4 lg:gap-x-12 py-10 lg:py-20">
+            <div>
+              <Link className="block" href="/"><Image className="max-w-48	w-full" src={portfolioLogo} alt="portfolioLogo" /></Link>
+              <p className="text-black dark:text-white mt-5 md:mt-8 mb-7 md:mb-10 capitalize">Hello I am Fresher Frontend Designer and Frontend Developer jagadish mistry. I am a Working In React Js & Next Js.</p>
+              <ul className="flex items-center space-x-6 text-white text-xl">
+                <li><a href="https://www.facebook.com/jago.mistri.58" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaFacebookF /></a></li>
+                <li><a href="https://www.linkedin.com/in/jagadish-mistry-00b57b244/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaTwitter /></a></li>
+                <li><a href="https://www.instagram.com/_little_boy_2002/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaInstagram /></a></li>
+                <li><a href="#" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaLinkedinIn /></a></li>
+              </ul>
             </div>
-          </div>
-          {/* part 2 */}
-          <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-3 xl:gap-9 lg:mt-0 md:mt-24 mt-0 xl:mt-[14px] 2xl:mt-20">
-            <div className="text-xl xl:text-[29px] font-bold underline">
-              Explore Link
+            <div>
+              <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Quick Links</h3>
+              <ul className="text-base font-medium capitalize text-black dark:text-white space-y-3">
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Home</Link></li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">About Us</Link></li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Services</Link></li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Project</Link></li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Skills</Link></li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">contact Us</Link></li>
+              </ul>
             </div>
-            <div className="text-xs xl:text-[18px] flex flex-col gap-1 xl:gap-4">
-              <div className="flex gap-1 xl:gap-2">
-                <span>
-                  <RiBox3Fill />
-                </span>
-                <span>Home</span>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span>
-                  <RiBox3Fill />
-                </span>
-                <span>About</span>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span>
-                  <RiBox3Fill />
-                </span>
-                <span>Services</span>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span>
-                  <RiBox3Fill />
-                </span>
-                <span>Project</span>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span>
-                  <RiBox3Fill />
-                </span>
-                <span>Skills</span>
-              </div>
+            <div>
+              <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Servicers</h3>
+              <ul className="text-base font-medium capitalize text-black dark:text-white space-y-3">
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Website Designer</li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Website Developer</li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />React Developer</li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Webflew Developer</li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Wordpress Developer</li>
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />UI Designer</li>
+              </ul>
             </div>
-          </div>
-          {/* part 3 */}
-          <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 xl:gap-8 xl:mt-[40px] 2xl:mt-[100px]">
-            <div className="text-xl xl:text-[29px] font-bold underline">
-              Latest Project
-            </div>
-            <div className="flex flex-col gap-2 xl:gap-5">
-              <div className="flex gap-2 xl:gap-4">
-                <div className="">
-                  <Image
-                    src={"/footer1.png"}
-                    height={500}
-                    width={500}
-                    className="xl:h-[72px] h-[45px] xl:w-[80px] w-[70px] rounded-md"
-                    alt=""
-                    priority
-                  />
-                </div>
-                <div className="">
-                  <p className="text-[12px] xl:text-[20px] font-bold w-36">
-                    New Dental Care project
-                  </p>
-                  <p className="text-[9px] xl:text-[16px]"> 05 Apr 2024</p>
-                </div>
-              </div>
-              <div className="">
-                <div className="flex gap-2 xl:gap-4">
-                  <div className="">
-                    <Image
-                      src={"/footer2.png"}
-                      height={500}
-                      width={500}
-                      className="xl:h-[72px] h-[45px] xl:w-[80px] w-[70px] rounded-md"
-                      alt=""
-                      priority
-                    />
+            <div>
+              <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Contact Us</h3>
+              <ul className="text-base font-medium text-black dark:text-white space-y-4">
+                <li className="flex items-center gap-x-3 lg:gap-x-5">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
+                    <FaPhone />
                   </div>
-                  <div className="">
-                    <p className="text-[12px] xl:text-[20px] font-bold w-36">
-                      New Artizen ai Project
-                    </p>
-                    <p className="text-[9px] xl:text-[16px]"> 21 feb 2024</p>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold mb-1">Phone</h3>
+                    <h4 className="text-base font-medium ">+01235 22 11 55</h4>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* part 4 */}
-          <div className="col-span-1 grid lg:place-items-start lg:w-full w-48 gap-4 mb-5 2xl:mb-[0px] xl:mb-8 2xl:mt-8 xl:gap-9 ">
-            <div className="text-xl xl:text-[29px] font-bold underline">
-              Get In Touch
-            </div>
-            <div className="text-xs xl:text-[16px] grid gap-3 xl:gap-5">
-              <div className="flex gap-1 xl:gap-2">
-                <span className=" text-secendry text-[18px] xl:text-[23px]">
-                  <PiPhoneCallLight />
-                </span>
-                <p>+91 9093958820</p>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span className=" text-secendry text-[18px] xl:text-[23px]">
-                  <IoIosMail />
-                </span>
-                <p>jagadishmistri8@gmail.com</p>
-              </div>
-              <div className="flex gap-1 xl:gap-2">
-                <span className=" text-secendry text-[18px] xl:text-[23px]">
+                </li>
+                <li className="flex items-center gap-x-3 lg:gap-x-5">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
+                    <FaRegEnvelope />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold mb-1">Email</h3>
+                    <h4 className="text-base font-medium ">jagadishmistri8@gmail.com</h4>
+                  </div>
+                </li>
+                <li className="flex items-center gap-x-3 lg:gap-x-5">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
                   <FaLocationDot />
-                </span>
-                <p>West-Bengal in Kkolkata at Basirhat. PIN- 743437</p>
-              </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold mb-1">Location</h3>
+                    <h4 className="text-base font-medium ">www.info@ighotok.com</h4>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
+          <div className="border-t border-secendry text-center py-3 lg:py-5 px-2 lg:px-6 text-xs sm:text-sm md:text-base font-semibold text-black dark:text-white">
+            <p className="mb-6">Copyright &copy; <Link href="/" className="transition-all hover:text-secendry">Jagadish-Portfolio</Link> 2024. All Rights Reserved</p>
+          </div>
         </div>
-      </div>
-      <div className="bg-bl/30 dark:bg-wh/30 h-16 dark:text-wh text-bl xl:text-[20px] lg:text-sm text-xs text-italic">
-        <div className="h-full w-full grid place-items-center">
-          Copyright © 2024 Jagadish-Portfolio. All Rights Reserved
-        </div>
-      </div>
+      </footer>
     </>
   );
 };

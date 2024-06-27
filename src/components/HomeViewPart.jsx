@@ -9,7 +9,7 @@ const HomeViewPart = () => {
 
   return (
     <>
-      <div className="lg:text-bl text-wh dark:text-wh bg-[url('/bgLight.png')] dark:bg-[url('/homeImage.png')] bg-cover bg-center text-italic font-serif">
+      <div className="lg:text-bl text-wh dark:text-wh bg-[url('/bgLight.png')] dark:bg-[url('/homeImage.png')] bg-cover bg-center text-italic">
         <div className="py-28">
           <ScrollTrigger
             onEnter={() => setCounting(true)}

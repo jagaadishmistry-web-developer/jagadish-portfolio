@@ -29,10 +29,10 @@ export const projectItems = [
   },
   {
     id: 4,
-    category: "javascript",
-    img: "/project7.jpg",
+    category: "react",
+    img: "/e-comarce-1.png",
     name: "js font page",
-    link: "",
+    link: "https://jagadish-ecomarce.netlify.app/",
   },
   {
     id: 5,

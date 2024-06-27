@@ -23,7 +23,7 @@ const ContactUsPage = () => {
   };
   return (
     <>
-      <div className="text-italic font-serif dark:text-wh text-bl">
+      <div className="text-italic dark:text-wh text-bl">
         <div className="container mx-auto px-4 ">
           <Heading title="Contact Me" />
           <form ref={form} onSubmit={sendEmail}>

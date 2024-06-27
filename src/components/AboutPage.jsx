@@ -11,7 +11,7 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <div className="bg-wh dark:bg-bl text-bl dark:text-white font-serif lg:pb-12">
+      <div className="bg-wh dark:bg-bl text-bl dark:text-white lg:pb-12">
         <Heading title="About Me" />
         <div className="container mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-4 lg:place-items-start place-items-center lg:text-start text-center lg:pb-16 pb-5 text-italic">
           <div
