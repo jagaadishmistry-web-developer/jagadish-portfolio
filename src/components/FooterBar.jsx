@@ -25,9 +25,9 @@ const FooterBar = () => {
               <p className="text-black dark:text-white mt-5 md:mt-8 mb-7 md:mb-10 capitalize">Hello I am Fresher Frontend Designer and Frontend Developer jagadish mistry. I am a Working In React Js & Next Js.</p>
               <ul className="flex items-center space-x-6 text-white text-xl">
                 <li><a href="https://www.facebook.com/jago.mistri.58" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaFacebookF /></a></li>
-                <li><a href="https://www.linkedin.com/in/jagadish-mistry-00b57b244/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaTwitter /></a></li>
+                <li><a href="#" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaTwitter /></a></li>
                 <li><a href="https://www.instagram.com/_little_boy_2002/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaInstagram /></a></li>
-                <li><a href="#" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaLinkedinIn /></a></li>
+                <li><a href="https://www.linkedin.com/in/jagadish-mistry-00b57b244/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaLinkedinIn /></a></li>
               </ul>
             </div>
             <div>

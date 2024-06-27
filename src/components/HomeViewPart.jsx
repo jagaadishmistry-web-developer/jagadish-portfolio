@@ -38,8 +38,7 @@ const HomeViewPart = () => {
                   </h2>
                 </div>
                 <p className="lg:text-black/70 text-hiLight dark:text-hiLight lg:text-xl 2xl:w-[600px] md:w-[570px] pb-10 pt-3">
-                  Hello I am a Frontend Designer and Frontend Developer jagadish
-                  mistry.i am working in javascript, react.js, next.js and
+                  I am Junior Frontend Designer and Frontend Developer. I am working in javascript, react.js, next.js and
                   taliwend css and i am figma ui Disigner.
                 </p>
                 <a
