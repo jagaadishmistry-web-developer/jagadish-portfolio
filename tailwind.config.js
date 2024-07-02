@@ -10,9 +10,11 @@ module.exports = {
     extend: {
       colors: {
         secendry: "#eb4d21f8",
+        sTwo: "#eb4d21f8",
         hiLight: "#878787",
         bl: "#070707",
         wh: "#ffff",
+        darkSec:"130B09"
       },
     },
   },

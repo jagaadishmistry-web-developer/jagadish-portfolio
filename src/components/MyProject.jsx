@@ -23,11 +23,11 @@ const MyProject = () => {
 
   return (
     <>
-      <div className="text-white text-italic pb-16">
-        <div className="container mx-auto px-4 lg:pt-[40px] pt-[20px]">
+      <div className="text-white text-italic pb-28">
+        <div className="container mx-auto px-4 lg:pt-[0px] pt-[20px]">
           <Heading title="My Project" />
           <div className="pb-10 flex items-center justify-center">
-            <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 place-items-center gap-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 place-items-center gap-4">
               <button
                 data-aos="fade-up"
                 onClick={() => setProjectItemData(projectItems)}
@@ -40,12 +40,12 @@ const MyProject = () => {
                 className="col-span-1 h-10 w-28 text-italic font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
                 Webflew
               </button>
-              <button
+              {/* <button
                 data-aos="fade-up"
                 onClick={() => projectItemFilter("javascript")}
                 className="col-span-1 h-10 w-28 text-italic font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
                 JavaScript
-              </button>
+              </button> */}
               <button
                 data-aos="fade-down"
                 onClick={() => projectItemFilter("react")}

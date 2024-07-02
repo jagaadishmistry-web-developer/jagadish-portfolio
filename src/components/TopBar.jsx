@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 const TopBar = () => {
   return (
     <>
-      <div className="bg-secendry text-white text-lg md:flex flex-col justify-center py-2 hidden">
+      <div className="bg-secendry text-white text-lg md:flex flex-col justify-center py-3 hidden">
         <div className="container mx-auto px-4 flex justify-between">
           <div className="flex lg:flex-row flex-col lg:gap-4 xl:text-[14px] text-[11px] lg:items-center">
             <div className="flex gap-1 items-center">

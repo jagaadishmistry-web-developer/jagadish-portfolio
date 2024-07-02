@@ -65,7 +65,7 @@ const ContactUsPage = () => {
               />
             </div>
             <div className="grid place-items-center py-12">
-              <button className="lg:py-4 py-2 lg:px-24 px-6 rounded-lg shadow2 dark:border border-white/25 font-medium hover:scale-110 duration-300 text-italic lg:text-lg">
+              <button className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-3 px-16 lg:px-20 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
                 Send Massage
               </button>
             </div>
@@ -75,7 +75,7 @@ const ContactUsPage = () => {
             title="google maps"
             referrerPolicy="no-referrer-when-downgrade"
             loading="lazy"
-            className="w-full xl:h-[450px] h-[320px] pt-16 xl:pt-24"></iframe>
+            className="w-full xl:h-[550px] h-[320px] pt-16 xl:pt-24 pb-10"></iframe>
         </div>
       </div>
     </>

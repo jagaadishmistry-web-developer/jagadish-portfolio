@@ -11,9 +11,10 @@ const MyServices = () => {
   }, []);
   return (
     <>
+    <div className="bg-secendry/5">
       <div className="container mx-auto px-4 text-italic pb-6 lg:pb-36">
         <Heading title="My Services" />
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
           <div data-aos="fade-up" className="col-span-1">
             <div className="grid md:grid-cols-2 gap-4 w-full">
               {servicesData.map((sData) => (
@@ -31,7 +32,7 @@ const MyServices = () => {
             {ServicesProvied.map((spData) => (
               <div
                 key={spData.id}
-                className="bg-wh dark:bg-bl text-bl dark:text-wh p-6 rounded-lg shadow2 dark:border border-white/25">
+                className="text-bl dark:text-wh p-6 rounded-lg shadow2 dark:border border-white/25">
                 <h1 className="xl:text-3xl text-2xl font-bold pt-2">
                   {spData.title}
                 </h1>
@@ -40,6 +41,7 @@ const MyServices = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

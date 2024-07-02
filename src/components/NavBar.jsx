@@ -34,7 +34,7 @@ const NavBar = () => {
   return (
     <>
       <GoTop />
-      <div className="bg-wh dark:bg-bl text-bl dark:text-wh border-b border-slate-300 dark:border-slate-700 text-italic">
+      <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 text-italic">
         <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center">
           <div className="lg:col-span-1 flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
@@ -77,8 +77,8 @@ const NavBar = () => {
             <button
               data-aos="fade-left"
               onClick={() => scrollHandler(contactUsPage)}
-              className="flex justify-center items-center text-italic gap-1 bg-secendry text-white text-[16px] hover:scale-105 duration-300 rounded-full w-[147px] h-[46px]">
-              <span className="mt-1">
+              className="flex gap-1 mb-1 relative font-medium text-italic bg-transparent py-3 px-6 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-xl hover:text-white before:hover:scale-x-100 items-center justify-center">
+              <span className="p-1 mt-1">
                 <LuUser2 />
               </span>
               <span> Contact Us</span>
@@ -97,7 +97,7 @@ const NavBar = () => {
           {nav && (
             <div
               onClick={() => setNav(false)}
-              className="absolute md:top-[188px] top-20 text-center flex pt-16 justify-center left-0 right-0 bg-white h-[100vh]">
+              className="absolute md:top-[188px] top-20 text-center flex pt-16 justify-center left-0 right-0 bg-white h-[50vh]">
               <div className="text-xl font-medium text-slate-600 gap-2 ">
                 <div className="grid gap-10 place-items-center">
                   <div className="grid gap-4">
@@ -124,8 +124,9 @@ const NavBar = () => {
                     </div>
                   </div>
                   <button
+                    data-aos="fade-left"
                     onClick={() => scrollHandler(contactUsPage)}
-                    className="flex gap-1 bg-secendry text-white text-xl rounded-full px-7 py-2 text-italic">
+                    className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-2 px-6 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
                     <span className="mt-1">
                       <LuUser2 />
                     </span>

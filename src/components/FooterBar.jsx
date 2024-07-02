@@ -17,7 +17,7 @@ const FooterBar = () => {
     <>
       <br />
       <br />
-      <footer className="bg-Scolor py-4 text-italic">
+      <footer className="bg-secendry/5 py-4 text-italic">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 gap-x-4 lg:gap-x-12 py-10 lg:py-20">
             <div>
@@ -56,7 +56,7 @@ const FooterBar = () => {
               <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Contact Us</h3>
               <ul className="text-base font-medium text-black dark:text-white space-y-4">
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
-                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-white inline-flex items-center justify-center">
                     <FaPhone />
                   </div>
                   <div className="flex-1">
@@ -65,7 +65,7 @@ const FooterBar = () => {
                   </div>
                 </li>
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
-                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-white inline-flex items-center justify-center">
                     <FaRegEnvelope />
                   </div>
                   <div className="flex-1">
@@ -74,7 +74,7 @@ const FooterBar = () => {
                   </div>
                 </li>
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
-                  <div className="w-12 h-12 rounded-xl bg-secendry text-black dark:text-white inline-flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-secendry text-white inline-flex items-center justify-center">
                   <FaLocationDot />
                   </div>
                   <div className="flex-1">
