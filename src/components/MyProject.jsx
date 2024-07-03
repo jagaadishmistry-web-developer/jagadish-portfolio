@@ -23,7 +23,7 @@ const MyProject = () => {
 
   return (
     <>
-      <div className="text-white text-italic pb-28">
+      <div className="text-white text-italic pb-28 capitalize">
         <div className="container mx-auto px-4 lg:pt-[0px] pt-[20px]">
           <Heading title="My Project" />
           <div className="pb-10 flex items-center justify-center">

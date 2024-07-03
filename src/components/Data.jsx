@@ -44,7 +44,7 @@ export const servicesData = [
   },
   {
     id: 6,
-    title: "TELIWEND CSS",
+    title: "TAILWIND CSS",
     url: taliwend,
   },
   {
@@ -72,7 +72,7 @@ export const ServicesProvied = [
   },
   {
     id: 1,
-    title: "UI/UX Designing",
+    title: "UI/UX Designer",
     dec: "Thanks for visiting the portfolio. Hello I am Figna UI/UX Designer jagadish mistry.  From here the website is designed and developed.  With responsive design.  Mainly here is more work with NextJS taliwend css",
   },
 ];

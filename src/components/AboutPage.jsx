@@ -11,7 +11,7 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <div className="bg-wh dark:bg-bl text-bl dark:text-white lg:pb-12">
+      <div className="bg-wh dark:bg-bl text-bl dark:text-white lg:pb-12 capitalize">
         <Heading title="About Me" />
         <div className="container mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 lg:place-items-start place-items-center lg:text-start text-center lg:pb-16 pb-5 text-italic">
           <div
@@ -30,8 +30,8 @@ const AboutPage = () => {
             <div className="md:text-[18px] text-[14px] text-hiLight">
               <ul>
                 <h1 className="text-lg text-secendry font-bold">About Me</h1>
-                Hello my name is jagadish mistry Hello I am Fresher Frontend
-                Designer and Frontend Developer.I am always try do to something
+                Hello my name is jagadish mistry. I am Fresher Frontend
+                Designer and Frontend Developer. I am always try do to something
                 new. I Always like to work with integrity.
               </ul>
               <div className="mt-3">
@@ -50,7 +50,7 @@ const AboutPage = () => {
                 </h1>
                 <li>Web Designer</li>
                 <li>Web Developer</li>
-                <li>Figma Designer</li>
+                <li>UI/UX Designer</li>
                 <li>Responsive Designer</li>
                 <li>Creative Design</li>
               </div>
@@ -59,7 +59,7 @@ const AboutPage = () => {
                   download
                   href="jagadish-mistry-cv.pdf"
                   className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-4 px-16 lg:px-20 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
-                  DOWNLODE CV
+                  DOWNLOAD CV
                 </a>
               </div>
             </div>

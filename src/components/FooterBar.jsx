@@ -48,7 +48,6 @@ const FooterBar = () => {
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Website Developer</li>
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />React Developer</li>
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Webflew Developer</li>
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Wordpress Developer</li>
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />UI Designer</li>
               </ul>
             </div>
@@ -61,7 +60,7 @@ const FooterBar = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-base font-semibold mb-1">Phone</h3>
-                    <h4 className="text-base font-medium ">+01235 22 11 55</h4>
+                    <h4 className="text-base font-medium "> <a href="tel:9093958820">+(91) 9093958820</a></h4>
                   </div>
                 </li>
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
@@ -70,7 +69,7 @@ const FooterBar = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-base font-semibold mb-1">Email</h3>
-                    <h4 className="text-base font-medium ">jagadishmistri8@gmail.com</h4>
+                    <h4 className="text-base font-medium "><a href="mailto:jagadishmistri8@gmail.com">jagadishmistri8@gmail.com</a></h4>
                   </div>
                 </li>
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
@@ -79,7 +78,8 @@ const FooterBar = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-base font-semibold mb-1">Location</h3>
-                    <h4 className="text-base font-medium ">www.info@ighotok.com</h4>
+                    <h4 className="text-base font-medium ">West Bengal in kolkata at Basirhat Pin-743437
+                    </h4>
                   </div>
                 </li>
               </ul>

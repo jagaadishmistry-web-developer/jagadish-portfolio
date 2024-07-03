@@ -23,7 +23,7 @@ const ContactUsPage = () => {
   };
   return (
     <>
-      <div className="text-italic dark:text-wh text-bl">
+      <div className="text-italic dark:text-wh text-bl capitalize">
         <div className="container mx-auto px-4 ">
           <Heading title="Contact Me" />
           <form ref={form} onSubmit={sendEmail}>
@@ -66,7 +66,7 @@ const ContactUsPage = () => {
             </div>
             <div className="grid place-items-center py-12">
               <button className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-3 px-16 lg:px-20 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
-                Send Massage
+                Send Message
               </button>
             </div>
           </form>

@@ -15,12 +15,12 @@ const HomeViewPart = () => {
           <ScrollTrigger
             onEnter={() => setCounting(true)}
             onExit={() => setCounting(false)}>
-            <div className="container mx-auto px-4 flex justify-between">
+            <div className="container mx-auto px-4 flex justify-between capitalize">
               <div className="flex flex-col justify-center gap-2 text-center lg:text-start items-center lg:items-start md:w-full lg:w-auto">
                 <div className="lg:text-2xl font-semibold text-secendry mb-8">
-                  WellCome
+                  Welcome
                   <Typewriter
-                    words={[" To My Poetfolio . . . ."]}
+                    words={[" To My Portfolio . . . ."]}
                     loop={true}
                     typeSpeed={190}
                     deleteSpeed={50}
@@ -38,15 +38,14 @@ const HomeViewPart = () => {
                   <h1>WEB-DESIGNER & DEVELOPER</h1>
                  </div>
                 </div>
-                <p className="lg:text-black/70 text-hiLight dark:text-hiLight lg:text-xl 2xl:w-[600px] md:w-[570px] pb-8 pt-4">
-                  I am Junior Frontend Designer and Frontend Developer. I am working in javascript, react.js, next.js and
-                  taliwend css and i am figma ui Disigner.
+                <p className="lg:text-black/70 text-hiLight dark:text-hiLight lg:text-xl 2xl:w-[600px] md:w-[570px] pb-8 pt-4 capitalize">
+                  I am Junior Frontend Designer and Frontend Developer. I Have Expreience Projecting in React Js And Next Js.
                 </p>
                 <a
                   download
                   href="jagadish-mistry-cv.pdf"
                   className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-4 px-16 lg:px-20 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
-                  DOWNLODE CV
+                  DOWNLOAD CV
                 </a>
                 <div className="xl:mt-[55px] lg:mt-[40px] md:mt-[50px] mt-[48px] flex md:gap-11 gap-5 justify-center lg:justify-start">
                   {CounterData.map((cData) => {

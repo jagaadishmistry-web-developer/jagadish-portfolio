@@ -4,7 +4,7 @@ const ProjectCart = ({ passProjectData }) => {
   const { img, name, link } = passProjectData;
   return (
     <>
-      <div className="shadow2 rounded-xl">
+      <div className="shadow2 rounded-xl capitalize">
         <div className="group relative rounded-xl items-center justify-center shadow-2xl shadow-black/90 dark:shadow-black-600/10 overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black transition-shadow md:h-full h-64">
           <div className="lg:h-[430px] md:h-[400px] h-[250px]">
             <Image

@@ -34,7 +34,7 @@ const NavBar = () => {
   return (
     <>
       <GoTop />
-      <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 text-italic">
+      <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 text-italic capitalize">
         <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center">
           <div className="lg:col-span-1 flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
@@ -43,7 +43,7 @@ const NavBar = () => {
             <div className="flex 2xl:gap-8 xl:gap-7 lg:gap-6 text-[16px]">
               <div
                 data-aos="fade-up"
-                className="cursor-pointer hover:border-b border-b text-secendry border-secendry">
+                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry">
                 Home
               </div>
               <div

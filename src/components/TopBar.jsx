@@ -10,7 +10,7 @@ const TopBar = () => {
       <div className="bg-secendry text-white text-lg md:flex flex-col justify-center py-3 hidden">
         <div className="container mx-auto px-4 flex justify-between">
           <div className="flex lg:flex-row flex-col lg:gap-4 xl:text-[14px] text-[11px] lg:items-center">
-            <div className="flex gap-1 items-center">
+            <div className="flex gap-1 items-center capitalize">
               <span>
                 <FaLocationDot className="text-lg" />
               </span>
@@ -20,13 +20,13 @@ const TopBar = () => {
               <span className="">
                 <IoIosMail className="text-lg" />
               </span>
-              Email: jagadishmistri8@gmail.com
+             <a href="mailto:jagadishmistri8@gmail.com">jagadishmistri8@gmail.com</a>
             </div>
             <div className="flex gap-1 items-center">
               <span className="">
                 <BiSolidPhoneCall className="text-lg" />
               </span>
-              +91 9093958820
+              <a href="tel:9093958820">+(91) 9093958820</a>
             </div>
           </div>
           <div className="lg:flex hidden">
