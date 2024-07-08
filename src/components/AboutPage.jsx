@@ -11,9 +11,9 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <div className="bg-wh dark:bg-bl text-bl dark:text-white lg:pb-12 capitalize">
-        <Heading title="About Me" />
-        <div className="container mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 lg:place-items-start place-items-center lg:text-start text-center lg:pb-16 pb-5 text-italic">
+      <div className="bg-wh dark:bg-bl text-bl dark:text-white lg:pb-12 pb-14 capitalize">
+        <Heading title="About" />
+        <div className="container mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 lg:pb-16 pb-5 text-italic">
           <div
             data-aos="fade-up"
             className="col-span-1 shadow-lg shadow2 dark:border border-white/35 w-full flex items-center justify-center">
@@ -22,7 +22,7 @@ const AboutPage = () => {
           <div
             data-aos="fade-down"
             className="flex flex-col gap-4 lg:mt-0 mt-14 h-full">
-            <div className="xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2">
+            <div className="xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2 lg:text-start text-center">
               <h1>I&apos;AM </h1>
               <h1>FRONTEND DESIGNER</h1>
               <h1>JAGADISH MISTRY</h1>

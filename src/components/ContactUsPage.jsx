@@ -23,11 +23,11 @@ const ContactUsPage = () => {
   };
   return (
     <>
-      <div className="text-italic dark:text-wh text-bl capitalize">
-        <div className="container mx-auto px-4 ">
+      <div className="text-italic dark:text-wh text-bl capitalize bg-secendry/5">
+        <div className="container mx-auto px-2">
           <Heading title="Contact Me" />
           <form ref={form} onSubmit={sendEmail}>
-            <div className="grid lg:grid-cols-2 grid-cols-1 lg:text-[20px] md:text-[17px] text-[16px] rounded-md px-3 lg:gap-6 md:gap-5 gap-4">
+            <div className="grid lg:grid-cols-2 grid-cols-1 lg:text-[20px] md:text-[17px] text-[16px] rounded-md px-2  lg:gap-6 md:gap-5 gap-4">
               <input
                 name="from_name"
                 type="text"
@@ -75,7 +75,7 @@ const ContactUsPage = () => {
             title="google maps"
             referrerPolicy="no-referrer-when-downgrade"
             loading="lazy"
-            className="w-full xl:h-[550px] h-[320px] pt-16 xl:pt-24 pb-10"></iframe>
+            className="w-full xl:h-[550px] h-[320px] pt-16 xl:pt-24 pb-10 px-2"></iframe>
         </div>
       </div>
     </>

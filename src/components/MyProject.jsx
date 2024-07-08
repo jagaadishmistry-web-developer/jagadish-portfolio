@@ -23,9 +23,9 @@ const MyProject = () => {
 
   return (
     <>
-      <div className="text-white text-italic pb-28 capitalize">
+      <div className="text-italic pb-28 capitalize">
         <div className="container mx-auto px-4 lg:pt-[0px] pt-[20px]">
-          <Heading title="My Project" />
+          <Heading title="Project" />
           <div className="pb-10 flex items-center justify-center">
             <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 place-items-center gap-4">
               <button

@@ -6,7 +6,6 @@ import ContactUsPage from "./ContactUsPage";
 import GoTop from "./GoTop";
 import HomeViewPart from "./HomeViewPart";
 import MyProject from "./MyProject";
-import SkillsPage from "./SkillsPage";
 import MyServices from "./MyServices";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,7 +23,7 @@ const NavBar = () => {
   const aboutPage = useRef();
   const myServices = useRef();
   const myProject = useRef();
-  const skillsPage = useRef();
+  // const skillsPage = useRef();
   const contactUsPage = useRef();
 
   const scrollHandler = (elmRef) => {
@@ -64,12 +63,12 @@ const NavBar = () => {
                 onClick={() => scrollHandler(myProject)}>
                 Project
               </div>
-              <div
+              {/* <div
                 data-aos="fade-up"
                 className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
                 onClick={() => scrollHandler(skillsPage)}>
                 Skills
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-span-1 lg:flex items-center gap-7 hidden justify-end w-full">
@@ -117,11 +116,11 @@ const NavBar = () => {
                       onClick={() => scrollHandler(myProject)}>
                       Project
                     </div>
-                    <div
+                    {/* <div
                       className="cursor-pointer"
                       onClick={() => scrollHandler(skillsPage)}>
                       Skills
-                    </div>
+                    </div> */}
                   </div>
                   <button
                     data-aos="fade-left"
@@ -151,9 +150,9 @@ const NavBar = () => {
         <div ref={myProject}>
           <MyProject />
         </div>
-        <div ref={skillsPage}>
+        {/* <div ref={skillsPage}>
           <SkillsPage />
-        </div>
+        </div> */}
         <div ref={contactUsPage}>
           <ContactUsPage />
         </div>

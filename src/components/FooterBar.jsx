@@ -17,7 +17,7 @@ const FooterBar = () => {
     <>
       <br />
       <br />
-      <footer className="bg-secendry/5 py-4 text-italic">
+      <footer className="py-4 text-italic">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 gap-x-4 lg:gap-x-12 py-10 lg:py-20">
             <div>
