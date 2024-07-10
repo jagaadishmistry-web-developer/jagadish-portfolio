@@ -15,11 +15,11 @@ const DarkMood = () => {
   });
   return (
     <>
-      <div className="py-1 duration-500" onClick={() => setDark(!dark)}>
+      <div className="py-1 duration-500 cursor-pointer" onClick={() => setDark(!dark)}>
         {dark ? (
-          <MdOutlineWbSunny className="h-6 w-6 duration-500 text-bl dark:text-white" />
+          <MdOutlineWbSunny className="h-6 w-6 text-secendry cursor-pointer" />
         ) : (
-          <FaRegMoon className="h-6 w-6 duration-500 text-bl dark:text-white" />
+          <FaRegMoon className="h-6 w-6 text-secendry" />
         )}
       </div>
     </>

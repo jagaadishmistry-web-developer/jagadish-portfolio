@@ -22,8 +22,6 @@ const NavBar = () => {
 
   const aboutPage = useRef();
   const myServices = useRef();
-  const myProject = useRef();
-  // const skillsPage = useRef();
   const contactUsPage = useRef();
 
   const scrollHandler = (elmRef) => {
@@ -33,55 +31,40 @@ const NavBar = () => {
   return (
     <>
       <GoTop />
-      <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 text-italic capitalize">
+      <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 capitalize">
         <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center">
           <div className="lg:col-span-1 flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
           </div>
           <div className="col-span-2 lg:flex hidden xl:gap-16 lg:gap-9 items-center">
-            <div className="flex 2xl:gap-8 xl:gap-7 lg:gap-6 text-[16px]">
+            <div className="flex lg:gap-1 text-[16px]">
               <div
                 data-aos="fade-up"
-                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry">
+                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer">
                 Home
               </div>
               <div
                 data-aos="fade-down"
-                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
+                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(aboutPage)}>
                 About
               </div>
               <div
                 data-aos="fade-up"
-                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
+                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(myServices)}>
                 Services
               </div>
               <div
-                data-aos="fade-down"
-                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
-                onClick={() => scrollHandler(myProject)}>
-                Project
-              </div>
-              {/* <div
                 data-aos="fade-up"
-                className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
-                onClick={() => scrollHandler(skillsPage)}>
-                Skills
-              </div> */}
+                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
+                onClick={() => scrollHandler(contactUsPage)}>
+                Contact
+              </div>    
             </div>
           </div>
-          <div className="col-span-1 lg:flex items-center gap-7 hidden justify-end w-full">
+          <div className="col-span-1 lg:flex gap-7 hidden justify-end w-full">
             <DarkMood />
-            <button
-              data-aos="fade-left"
-              onClick={() => scrollHandler(contactUsPage)}
-              className="flex gap-1 mb-1 relative font-medium text-italic bg-transparent py-3 px-6 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-xl hover:text-white before:hover:scale-x-100 items-center justify-center">
-              <span className="p-1 mt-1">
-                <LuUser2 />
-              </span>
-              <span> Contact Us</span>
-            </button>
           </div>
           <div className="flex gap-4 z-50 lg:hidden justify-end w-full items-center">
             <DarkMood />
@@ -111,16 +94,6 @@ const NavBar = () => {
                       onClick={() => scrollHandler(myServices)}>
                       Services
                     </div>
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => scrollHandler(myProject)}>
-                      Project
-                    </div>
-                    {/* <div
-                      className="cursor-pointer"
-                      onClick={() => scrollHandler(skillsPage)}>
-                      Skills
-                    </div> */}
                   </div>
                   <button
                     data-aos="fade-left"
@@ -147,12 +120,6 @@ const NavBar = () => {
         <div ref={myServices}>
           <MyServices />
         </div>
-        <div ref={myProject}>
-          <MyProject />
-        </div>
-        {/* <div ref={skillsPage}>
-          <SkillsPage />
-        </div> */}
         <div ref={contactUsPage}>
           <ContactUsPage />
         </div>

@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 const TopBar = () => {
   return (
     <>
-      <div className="bg-secendry text-white text-lg md:flex flex-col justify-center py-3 hidden">
+      <div className="bg-secendry text-white text-lg md:flex flex-col justify-center py-4 hidden">
         <div className="container mx-auto px-4 flex justify-between">
           <div className="flex lg:flex-row flex-col lg:gap-4 xl:text-[14px] text-[11px] lg:items-center">
             <div className="flex gap-1 items-center capitalize">
@@ -30,21 +30,18 @@ const TopBar = () => {
             </div>
           </div>
           <div className="lg:flex hidden">
-            <div className="flex gap-4 text-bl">
+            <div className="flex gap-4 text-wh pt-1">
               <Link
-                href={"https://www.facebook.com/jago.mistri.58"}
-                className="p-2 bg-white rounded-full">
-                <FaFacebookF />
+                href={"https://www.facebook.com/jago.mistri.58"}>
+                <FaFacebookF className="text-xl"/>
               </Link>
               <Link
-                href={"https://www.instagram.com/_little_boy_2002/"}
-                className="p-2 bg-white rounded-full">
-                <FaInstagram />
+                href={"https://www.instagram.com/_little_boy_2002/"}>
+                <FaInstagram className="text-xl"/>
               </Link>
               <Link
-                href={"https://www.linkedin.com/in/jagadish-mistry-00b57b244/"}
-                className="p-2 bg-white rounded-full">
-                <FaLinkedinIn />
+                href={"https://www.linkedin.com/in/jagadish-mistry-00b57b244/"}>
+                <FaLinkedinIn className="text-xl"/>
               </Link>
             </div>
           </div>

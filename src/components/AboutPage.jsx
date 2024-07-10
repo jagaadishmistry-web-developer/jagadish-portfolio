@@ -22,7 +22,7 @@ const AboutPage = () => {
           <div
             data-aos="fade-down"
             className="flex flex-col gap-4 lg:mt-0 mt-14 h-full">
-            <div className="xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2 lg:text-start text-center">
+            <div className="text-secendry xl:text-4xl lg:text-3xl text-2xl py-4 font-medium flex flex-col gap-2 lg:text-start text-center">
               <h1>I&apos;AM </h1>
               <h1>FRONTEND DESIGNER</h1>
               <h1>JAGADISH MISTRY</h1>
