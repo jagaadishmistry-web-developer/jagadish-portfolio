@@ -1,7 +1,5 @@
 export const CounterData = [
   { id: 0, value: "8", name: "Project" },
-  { id: 1, value: "1", name: "Clients" },
-  { id: 2, value: "2", name: "Service" },
 ];
 
 export const SkillData = [

@@ -22,6 +22,7 @@ const NavBar = () => {
 
   const aboutPage = useRef();
   const myServices = useRef();
+  const project = useRef();
   const contactUsPage = useRef();
 
   const scrollHandler = (elmRef) => {
@@ -32,39 +33,46 @@ const NavBar = () => {
     <>
       <GoTop />
       <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 capitalize">
-        <div className="container mx-auto px-4 grid lg:grid-cols-4 grid-cols-2 justify-between h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[100px] place-items-center">
-          <div className="lg:col-span-1 flex items-start w-full">
+        <div className="container mx-auto px-4 grid grid-cols-2 h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[110px] place-items-center">
+          <div className="flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
           </div>
-          <div className="col-span-2 lg:flex hidden xl:gap-16 lg:gap-9 items-center">
-            <div className="flex lg:gap-1 text-[16px]">
+          <div className="lg:flex hidden xl:gap-6 lg:gap-4 items-center justify-between w-full">
+            <div className=""></div>
+            <div className="flex lg:gap-6 text-[16px] items-center">
               <div
                 data-aos="fade-up"
-                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer">
+                className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer">
                 Home
               </div>
               <div
                 data-aos="fade-down"
-                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
+                className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(aboutPage)}>
                 About
               </div>
               <div
                 data-aos="fade-up"
-                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
+                className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(myServices)}>
                 Services
-              </div>
+              </div> 
               <div
                 data-aos="fade-up"
-                className="group flex relative bg-transparent py-2 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
-                onClick={() => scrollHandler(contactUsPage)}>
-                Contact
-              </div>    
+                className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
+                onClick={() => scrollHandler(project)}>
+                Project
+              </div> 
+              <div
+                 data-aos="fade-up"
+                 className="bg-secendry text-lg text-white px-4 lg:px-10 ml-4 py-3 rounded-md"
+                 onClick={() => scrollHandler(contactUsPage)}>
+                 Contact
+              </div>
+              <div className="lg:flex gap-7 hidden justify-end w-full">
+                <DarkMood />
+              </div>
             </div>
-          </div>
-          <div className="col-span-1 lg:flex gap-7 hidden justify-end w-full">
-            <DarkMood />
           </div>
           <div className="flex gap-4 z-50 lg:hidden justify-end w-full items-center">
             <DarkMood />
@@ -94,6 +102,11 @@ const NavBar = () => {
                       onClick={() => scrollHandler(myServices)}>
                       Services
                     </div>
+                    <div
+                      className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
+                      onClick={() => scrollHandler(project)}>
+                      Project
+                    </div>
                   </div>
                   <button
                     data-aos="fade-left"
@@ -119,6 +132,9 @@ const NavBar = () => {
         </div>
         <div ref={myServices}>
           <MyServices />
+        </div>
+        <div ref={project}>
+        <MyProject/>
         </div>
         <div ref={contactUsPage}>
           <ContactUsPage />

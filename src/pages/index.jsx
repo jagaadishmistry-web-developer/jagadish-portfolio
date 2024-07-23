@@ -9,7 +9,6 @@ const index = () => {
       <Head>
         <title>Jagadish_Mistry / Portfolio</title>
       </Head>
-      <TopBar />
       <NavBar />
       <FooterBar />
     </>
