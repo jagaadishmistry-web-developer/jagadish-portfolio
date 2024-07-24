@@ -5,7 +5,7 @@ import Heading from "./Heading";
 const SkillsPage = () => {
   return (
     <>
-      <div className="bg-secendry/5">
+      <div className="">
         <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4 text-italic dark:text-wh text-bl pt-6 lg:pt-0 lg:pb-20">
           <Heading title="My Skills" />
           <div className="grid place-items-center capitalize">

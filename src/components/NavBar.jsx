@@ -20,7 +20,7 @@ const NavBar = () => {
 
   const [nav, setNav] = useState(false);
 
-  const aboutPage = useRef();
+  // const aboutPage = useRef();
   const myServices = useRef();
   const project = useRef();
   const contactUsPage = useRef();
@@ -45,12 +45,12 @@ const NavBar = () => {
                 className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer">
                 Home
               </div>
-              <div
+              {/* <div
                 data-aos="fade-down"
                 className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(aboutPage)}>
                 About
-              </div>
+              </div> */}
               <div
                 data-aos="fade-up"
                 className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
@@ -65,7 +65,7 @@ const NavBar = () => {
               </div> 
               <div
                  data-aos="fade-up"
-                 className="bg-secendry text-lg text-white px-4 lg:px-10 ml-4 py-3 rounded-md"
+                 className="bg-secendry text-lg text-white px-4 lg:px-10 ml-4 py-3 rounded-md cursor-pointer"
                  onClick={() => scrollHandler(contactUsPage)}>
                  Contact
               </div>
@@ -92,11 +92,11 @@ const NavBar = () => {
                 <div className="grid gap-10 place-items-center">
                   <div className="grid gap-4">
                     <div className="cursor-pointer">Home</div>
-                    <div
+                    {/* <div
                       className="cursor-pointer"
                       onClick={() => scrollHandler(aboutPage)}>
                       About
-                    </div>
+                    </div> */}
                     <div
                       className="cursor-pointer hover:border-b hover:text-secendry hover:border-secendry"
                       onClick={() => scrollHandler(myServices)}>
@@ -109,7 +109,7 @@ const NavBar = () => {
                     </div>
                   </div>
                   <button
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     onClick={() => scrollHandler(contactUsPage)}
                     className="flex gap-1 relative border-2 font-medium text-italic border-secendry bg-transparent py-2 px-6 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40 items-center justify-center">
                     <span className="mt-1">
@@ -127,9 +127,9 @@ const NavBar = () => {
         <div>
           <HomeViewPart />
         </div>
-        <div ref={aboutPage}>
+        {/* <div ref={aboutPage}>
           <AboutPage />
-        </div>
+        </div> */}
         <div ref={myServices}>
           <MyServices />
         </div>

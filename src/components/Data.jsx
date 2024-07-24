@@ -49,16 +49,11 @@ export const servicesData = [
   },
   {
     id: 7,
-    title: "NODE JS",
-    url: node,
-  },
-  {
-    id: 8,
     title: "FIGMA",
     url: figma,
   },
   {
-    id: 9,
+    id: 8,
     title: "PHOTOSHOP",
     url: ps,
   },

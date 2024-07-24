@@ -25,7 +25,7 @@ const ProjectCart = ({ passProjectData }) => {
               <a
                 href={link}
                 target="_blank"
-                className="flex gap-1 relative rounded-lg border-2 font-medium text-italic border-secendry bg-transparent py-1 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40">
+                className="flex gap-1 relative rounded-lg border-2 font-medium border-secendry bg-transparent py-1 px-5 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-secendry text-lg hover:text-white before:hover:scale-x-100 shadow-lg shadow-secendry/40">
                 Live Project
               </a>
             </div>

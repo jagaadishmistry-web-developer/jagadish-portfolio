@@ -15,7 +15,7 @@ export const projectItems = [
   },
   {
     id: 2,
-    category: "webflew",
+    category: "webflow",
     img: "/project-1.png",
     name: "Demo Design Project",
     link: "https://jagadishs-proventus.webflow.io/",
@@ -40,12 +40,5 @@ export const projectItems = [
     img: "/bitreadly.png",
     name: "Bitreadly Design",
     link: "https://jagadish-bitradly.netlify.app/",
-  },
-  {
-    id: 6,
-    category: "react",
-    img: "/culture-by-design.png",
-    name: "Culture-By-Design",
-    link: "https://jagadish-culture-by-design.netlify.app/",
   },
 ];

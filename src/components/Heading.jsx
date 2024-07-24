@@ -5,9 +5,9 @@ const Heading = (props) => {
         <p className="font-bold md:text-[40px] text-[36px] dark:text-white">
           {props.title}
         </p>
-        <p className="lg:w-[540px] md:text-[16px] text-[15px] text-center mt-1 text-hiLight lg:px-0 px-5">
+        {/* <p className="lg:w-[540px] md:text-[16px] text-[15px] text-center mt-1 text-hiLight lg:px-0 px-5">
          Creative Frontend-Designer. Developed The Project Using React Js
-        </p>
+        </p> */}
       </div>
     </>
   );
