@@ -12,7 +12,7 @@ const MyServices = () => {
   return (
     <>
     <div className="bg-secendry/5">
-      <div className="container mx-auto px-4 text-italic pb-20 lg:pb-36 capitalize">
+      <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4 text-italic pb-20 lg:pb-36 capitalize">
         <Heading title="skills" />
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
           <div data-aos="fade-up" className="col-span-1">

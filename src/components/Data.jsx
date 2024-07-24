@@ -67,8 +67,8 @@ export const servicesData = [
 export const ServicesProvied = [
   {
     id: 0,
-    title: "Web Development",
-    dec: "Thanks for visiting the portfolio. Hello I am Frontend Designer and Frontend Developer jagadish mistry.  From here the website is designed and developed.  With responsive design.  Mainly here is more work with NextJS taliwend css",
+    title: "Web Designer",
+    dec: "Creative web designer with expertise in crafting responsive, user-friendly websites. Proficient in HTML, CSS, JavaScript, and React JS. Dedicated to delivering innovative design solutions that enhance user experience and drive business growth.",
   },
   {
     id: 1,

@@ -18,7 +18,7 @@ const FooterBar = () => {
       <br />
       <br />
       <footer className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 gap-x-4 lg:gap-x-12 py-10 lg:py-20">
             <div>
               <Link className="block" href="/"><Image className="max-w-48	w-full" src={portfolioLogo} alt="portfolioLogo" /></Link>

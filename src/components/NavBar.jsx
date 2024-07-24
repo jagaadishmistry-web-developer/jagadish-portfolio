@@ -33,13 +33,13 @@ const NavBar = () => {
     <>
       <GoTop />
       <div className="bg-secendry/5 text-bl dark:text-wh duration-700 border-b border-slate-300 dark:border-slate-700 capitalize">
-        <div className="container mx-auto px-4 grid grid-cols-2 h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[110px] place-items-center">
+        <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4 flex h-[75px] md:h-[85px] lg:h-[78px] xl:h-[80px] 2xl:h-[110px] place-items-center">
           <div className="flex items-start w-full">
             <Image src={portfolioLogo} alt="" data-aos="fade-right" />
           </div>
           <div className="lg:flex hidden xl:gap-6 lg:gap-4 items-center justify-between w-full">
             <div className=""></div>
-            <div className="flex lg:gap-6 text-[16px] items-center">
+            <div className="flex lg:gap-2 text-[16px] items-center">
               <div
                 data-aos="fade-up"
                 className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer">
@@ -55,7 +55,7 @@ const NavBar = () => {
                 data-aos="fade-up"
                 className="group flex relative bg-transparent py-3 px-4 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-secendry before:transition-transform before:duration-500 before:content-[''] text-lg hover:text-white before:hover:scale-x-100 items-center justify-center cursor-pointer"
                 onClick={() => scrollHandler(myServices)}>
-                Services
+                Skills
               </div> 
               <div
                 data-aos="fade-up"
@@ -69,7 +69,7 @@ const NavBar = () => {
                  onClick={() => scrollHandler(contactUsPage)}>
                  Contact
               </div>
-              <div className="lg:flex gap-7 hidden justify-end w-full">
+              <div className="lg:flex gap-7 hidden justify-end w-full pl-5">
                 <DarkMood />
               </div>
             </div>

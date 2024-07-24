@@ -24,7 +24,7 @@ const ContactUsPage = () => {
   return (
     <>
       <div className="text-italic dark:text-wh text-bl capitalize bg-secendry/5">
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4">
           <Heading title="Contact Me" />
           <div className="grid lg:gap-8 gap-4 lg:grid-cols-2 pb-10 lg:pb-24">
           <iframe
