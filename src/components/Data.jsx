@@ -73,6 +73,6 @@ export const ServicesProvied = [
   {
     id: 1,
     title: "UI/UX Designer",
-    dec: "Thanks for visiting the portfolio. Hello I am Figna UI/UX Designer jagadish mistry.  From here the website is designed and developed.  With responsive design.  Mainly here is more work with NextJS taliwend css",
+    dec: "As a skilled UI designer, I specialize in creating intuitive and visually appealing designs using Figma and Photoshop, ensuring seamless user experiences and engaging interfaces tailored to meet client needs.",
   },
 ];
