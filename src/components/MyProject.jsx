@@ -34,19 +34,19 @@ const MyProject = () => {
                 className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
                 All
               </button>
-              <button
-                data-aos="fade-down"
-                onClick={() => projectItemFilter("webflow")}
-                className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
-                Webflew
-              </button>
               {/* <button
                 data-aos="fade-up"
                 onClick={() => projectItemFilter("javascript")}
                 className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
                 JavaScript
                 </button> */}
-                <button
+              <button
+                data-aos="fade-down"
+                onClick={() => projectItemFilter("react")}
+                className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
+                React Js
+              </button>
+              <button
                   data-aos="fade-up"
                   onClick={() => projectItemFilter("javascript")}
                   className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
@@ -54,9 +54,9 @@ const MyProject = () => {
                 </button>
               <button
                 data-aos="fade-down"
-                onClick={() => projectItemFilter("react")}
+                onClick={() => projectItemFilter("webflow")}
                 className="col-span-1 h-10 w-28 font-medium text-base text-black dark:text-white shadow2 dark:border border-white/25 hover:scale-110 duration-300 rounded-lg">
-                React Js
+                Webflow
               </button>
             </div>
           </div>
