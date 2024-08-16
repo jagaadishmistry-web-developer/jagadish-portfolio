@@ -1,29 +1,20 @@
 import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import ScrollTrigger from "react-scroll-trigger";
 import { Typewriter } from "react-simple-typewriter";
 import HeroImage from "../../public/jagadish.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const HomeViewPart = () => {
   const [counting, setCounting] = useState(false);
 
   return (
     <>
-      {/* <div className="h-10 w-10 border border-secendry rounded-full animate-ping absolute lg:top-[25%] top-[15%] lg:right-[44%] right-[15%] flex items-center justify-center object-center">
-      <div className="h-3 w-3 border border-secendry rounded-full animate-ping absolute"/>
-      </div>
-      <div className="h-10 w-10 border border-secendry rounded-full animate-ping absolute bottom-[14%] left-[45%] flex items-center justify-center object-center">
-      <div className="h-3 w-3 border border-secendry rounded-full animate-ping absolute"/>
-      </div> */}
-
       <div className="py-16 lg:pt-0 pt-28 lg:py-0 bg-secendry/5">
           <ScrollTrigger
             onEnter={() => setCounting(true)}
             onExit={() => setCounting(false)}>
-            <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4 grid lg:grid-cols-2 xl:gap-20 lg:gap-16 gap-4 w-full">
+            <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4 grid lg:grid-cols-2 xl:gap-20 lg:gap-16 gap-4 w-full lg:h-screen">
               <div className="flex flex-col justify-center items-center lg:items-start">
                 <div className="duration-700 text-center lg:text-start">
                   <h2 className="lg:text-2xl text-lg font-medium text-black dark:text-white duration-500">
@@ -41,10 +32,16 @@ const HomeViewPart = () => {
                  </div>
                  <div className="lg:text-lg mb-8 text-black dark:text-white text-center lg:text-start duration-500">
                  <h1>I am a fresher react JS developer. Creating responsive and dynamic websites. I have completed my web design and development course from CIT (Central Institute Of Technology). I love coding and listening to music and traveling.</h1>
+                <ul className="flex items-center space-x-6 text-white text-xl pt-8 justify-center lg:justify-start">
+                <li><a href="https://www.facebook.com/jago.mistri.58" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaFacebookF /></a></li>
+                <li><a href="#" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaTwitter /></a></li>
+                <li><a href="https://www.instagram.com/_little_boy_2002/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaInstagram /></a></li>
+                <li><a href="https://www.linkedin.com/in/jagadish-mistry-00b57b244/" className="transition-all hover:text-secendry text-black dark:text-white" target="_blank"><FaLinkedinIn /></a></li>
+                </ul>
                 </div>
                 </div>          
-              <div className="flex lg:py-24 items-center justify-center">
-                <Image className="lg:ml-5 w-full h-full" src={HeroImage} alt="hero-image"/>
+              <div className="flex items-center justify-center">
+                <Image className="lg:h-[550px] lg:w-[500px]" src={HeroImage} alt="hero-image"/>
               </div>
             </div>
           </ScrollTrigger>

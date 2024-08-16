@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        secendry: "#DC2774",
+        secendry: "#E05C12",
         sTwo: "#eb4d21f8",
         hiLight: "#878787",
         bl: "#070707",
