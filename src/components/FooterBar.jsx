@@ -20,7 +20,7 @@ const FooterBar = () => {
       <footer className="py-4 bg-secendry/5">
         <div className="container mx-auto xl:px-20 lg:px-12 md:px-20 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4 lg:gap-x-12 py-10 lg:py-20">
-            <div className="col-span-2">
+            <div className="lg:col-span-2 col-span-1">
               <Link className="block" href="/"><Image className="max-w-48	w-full" src={portfolioLogo} alt="portfolioLogo" /></Link>
               <p className="text-black dark:text-white mt-5 md:mt-8 mb-7 md:mb-10 capitalize">I am a fresher react JS developer. Creating responsive and dynamic websites. I have completed my web design and development course from CIT (Central Institute Of Technology). I love coding and listening to music and traveling.
               </p>
@@ -42,16 +42,6 @@ const FooterBar = () => {
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">contact Us</Link></li>
               </ul>
             </div>
-            {/* <div>
-              <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Servicers</h3>
-              <ul className="text-base font-medium capitalize text-black dark:text-white space-y-3">
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Website Designer</li>
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Web Developer</li>
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />React JS Developer</li>
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />Webflew Developer</li>
-                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill />UI Designer</li>
-              </ul>
-            </div> */}
             <div className="col-span-1">
               <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Contact Us</h3>
               <ul className="text-base font-medium text-black dark:text-white space-y-4">
