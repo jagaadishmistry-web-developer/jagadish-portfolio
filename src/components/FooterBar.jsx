@@ -35,9 +35,8 @@ const FooterBar = () => {
               <h3 className="text-2xl md:text-3xl	font-medium capitalize text-black dark:text-white mb-6 lg:mb-8 xl:mb-11">Quick Links</h3>
               <ul className="text-base font-medium capitalize text-black dark:text-white space-y-3">
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Home</Link></li>
-                {/* <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">About Us</Link></li> */}
+                <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">About Us</Link></li>
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Skills</Link></li>
-                {/* <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Services</Link></li> */}
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">Project</Link></li>
                 <li className="flex gap-1 xl:gap-2 items-center"><RiBox3Fill /><Link href="#">contact Us</Link></li>
               </ul>
