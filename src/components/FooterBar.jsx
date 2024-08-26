@@ -48,7 +48,7 @@ const FooterBar = () => {
                   <div className="w-12 h-12 rounded-xl bg-secendry text-white inline-flex items-center justify-center">
                     <FaPhone />
                   </div>
-                  <h4 className="text-base font-medium "> <a href="tel:9093958820">+(91) 9093958820</a></h4>
+                  <h4 className="text-base font-medium "> <a href="tel:9093958820">+(91) 9339471127</a></h4>
                 </li>
                 <li className="flex items-center gap-x-3 lg:gap-x-5">
                   <div className="w-12 h-12 rounded-xl bg-secendry text-white inline-flex items-center justify-center">

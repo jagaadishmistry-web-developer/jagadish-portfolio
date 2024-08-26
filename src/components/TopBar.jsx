@@ -26,7 +26,7 @@ const TopBar = () => {
               <span className="">
                 <BiSolidPhoneCall className="text-lg" />
               </span>
-              <a href="tel:9093958820">+(91) 9093958820</a>
+              <a href="tel:9093958820">+(91) 9339471127</a>
             </div>
           </div>
           <div className="lg:flex hidden">

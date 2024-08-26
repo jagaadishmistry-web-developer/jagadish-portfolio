@@ -1,6 +1,5 @@
 import FooterBar from "@/components/FooterBar";
 import NavBar from "@/components/NavBar";
-import TopBar from "@/components/TopBar";
 import Head from "next/head";
 
 const index = () => {
