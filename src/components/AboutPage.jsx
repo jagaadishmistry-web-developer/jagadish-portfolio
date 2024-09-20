@@ -23,7 +23,7 @@ const AboutPage = () => {
             data-aos="fade-down"
             className="flex flex-col gap-4 lg:mt-0 mt-14 h-full justify-center lg:items-start items-center lg:text-start text-center">
             <h1 className="text-4xl font-bold pb-3">About</h1>
-            <p>I am Jagadish mistry. I live in Kalkata in West Bengal. My skilled React JS developer.  have been doing web design work at my home for last one year but in real life I have not got any opportunity to work with any company. my hobbis coding and music and i am intreast learning any new things.</p>
+            <p>I am Jagadish mistry. I live in Kalkata in West Bengal. My skilled React JS developer. have been doing web design work at my home for last one year but in real life I have not got any opportunity to work with any company. my hobbis coding and music and i am intreast learning any new things.</p>
             <p className="pb-5">I have completed my web development course from CIT (Central Institute Of Technology). Completed Higher Secondary (12th) and Secondary (10th) Education from Dhanyakuria High School. Complete B.A (Graduation) from basirhat collage.</p>
             <a href="jagadish-mistry-cv.pdf" download className="h-16 w-60 xl:w-72 flex items-center justify-center bg-secendry text-lg text-white hover:scale-105 duration-300 rounded-md">Download CV</a>
           </div>
