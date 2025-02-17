@@ -1,13 +1,12 @@
-import html from "../../public/html.png";
+import bootstrap from "../../public/bootstrap.png";
 import css from "../../public/css.png";
 import figma from "../../public/figma.png";
+import html from "../../public/html.png";
 import js from "../../public/js.png";
 import next from "../../public/next.png";
-import node from "../../public/node.png";
 import ps from "../../public/ps.png";
 import react from "../../public/react.png";
 import taliwend from "../../public/taliwend.png";
-import bootstrap from "../../public/bootstrap.png";
 
 export const servicesData = [
   {
@@ -54,6 +53,16 @@ export const servicesData = [
   },
   {
     id: 8,
+    title: "PHOTOSHOP",
+    url: ps,
+  },
+  {
+    id: 9,
+    title: "PHOTOSHOP",
+    url: ps,
+  },
+  {
+    id: 10,
     title: "PHOTOSHOP",
     url: ps,
   },
